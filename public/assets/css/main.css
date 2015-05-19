@@ -1,0 +1,21 @@
+body {
+  color: #5a5a5a;
+}
+.pro-lang {
+  font-size: 2.5em;
+}
+.pro-lang-box {
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+.domain-box {
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ffc9a3;
+  padding: 10px;
+}

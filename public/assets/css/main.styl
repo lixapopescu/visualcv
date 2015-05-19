@@ -1,0 +1,39 @@
+//variables
+text-color = #5a5a5a;
+border-color = #e3e3e3;
+border-width = 1px;
+color-neutral-light = #f5f5f5;
+primary-color = #FFC9A3;
+
+
+//mixins
+border(n){
+	border: border-width solid border-color;
+	-webkit-border-radius n
+	-moz-border-radius n
+	border-radius n
+}
+
+border4(){
+	border(4px)
+}
+
+//styles
+body{
+    color: text-color;
+}
+
+.pro-lang{ //programming language
+	font-size: 2.5em;
+}
+
+.pro-lang-box{
+	border4();
+	background-color: color-neutral-light;
+}
+
+.domain-box{
+	border4();
+	background-color: primary-color;
+	padding: 10px;
+}

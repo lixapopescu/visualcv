@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/lixapopescu/visualcv/issues"
   },
-  "homepage": "https://github.com/lixapopescu/visualcv#readme"
+  "homepage": "https://github.com/lixapopescu/visualcv#readme",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "method-override": "^2.3.3",
+    "morgan": "^1.5.3",
+    "path": "^0.11.14",
+    "serve-favicon": "^2.2.1",
+    "stylus": "^0.51.1"
+  }
 }
