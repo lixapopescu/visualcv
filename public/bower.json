@@ -1,0 +1,25 @@
+{
+  "name": "Visual CV Alexandra Popescu",
+  "version": "0.0.1",
+  "authors": [
+    "Alexandra Popescu <lixapopescu@gmail.com>"
+  ],
+  "description": "Visual CV",
+  "main": "index.html",
+  "keywords": [
+    "visual",
+    "template",
+    "visual",
+    "cv",
+    "cv"
+  ],
+  "license": "MIT",
+  "homepage": "alexandra.popescu.eu.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

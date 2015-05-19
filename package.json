@@ -1,0 +1,26 @@
+{
+  "name": "visual_cv_server",
+  "version": "0.0.1",
+  "description": "Node server for visual CV",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixapopescu/visualcv.git"
+  },
+  "keywords": [
+    "visual",
+    "cv",
+    "template",
+    "cv"
+  ],
+  "author": "Alexandra Popescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixapopescu/visualcv/issues"
+  },
+  "homepage": "https://github.com/lixapopescu/visualcv#readme"
+}
