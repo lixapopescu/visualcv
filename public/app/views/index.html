@@ -27,83 +27,30 @@
     <!-- load angular from CDN and custom application -->
     <!-- load angular and our custom application -->
 
-    <body ng-app="visualcvApp" ng-controller="mainController as main">
+    <body ng-app="VisualCVApp" ng-controller="AppCtrl as main">
 
         <div layout="column" layout-sm="row" layout-margin layout-fill layout-padding>
-            <div flex>
-                <div layout="row" layout-sm="column">
-                    <div flex="5">job</div>
-                    <div flex>
-                        Software developer
-                        <div layout="column" layout-align="start end">
-                        <div flex class="domain-box">
-                        	Stock Exchange
-                        </div>
-                            <div layout="row" class="pro-lang-box">
-                                <div flex><i class="devicon-dot-net-plain-wordmark pro-lang"></i></div>
-                                <div flex><i class="">j2ee</i></div>
-                            </div>
-                            <div layout="row" class="pro-lang-box">
-                                <div flex><i class="">html4</i></div>
-                                <div flex><i class="devicon-php-plain pro-lang"></i></div>
-                                <div flex><i class="devicon-javascript-plain pro-lang"></i></div>
-                            </div>
-                            <div layout="row" class="pro-lang-box">
-                                <div flex><i class="devicon-oracle-original pro-lang"></i></div>
-                                <div flex><i class="">plsql</i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div flex>
-                        Customer Support Engineer CRM
-                        <div layout="column" layout-align="start end">
-                        <div flex class="domain-box">
-                        	Telecom
-                        </div>
-                            <div layout="row" class="pro-lang-box">
-                                <div flex><i class="">xml</i></div>
-                                <div flex><i class="">bash</i></div>
-                                <div flex><i class="">VB scripting</i></div>
-                            </div>
-                            <div layout="row" class="pro-lang-box">
-                                <div flex><i class="devicon-oracle-original pro-lang"></i></div>
-                                <div flex><i class="">plsql</i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div flex>job2</div>
-                    <div flex>job3</div>
-                    <div flex>job4</div>
-
-                </div>
-
-            </div>
-            <div flex="20" style="font-size:10px">
-                <div layout="row" layout-sm="column">
-                    <div flex="5">..</div>
-                    <div flex>2005</div>
-                    <div flex>2006</div>
-                    <div flex>2007</div>
-                    <div flex>2008</div>
-                    <div flex>2009</div>
-                    <div flex>2010</div>
-                    <div flex>2012</div>
-                    <div flex>2013</div>
-                    <div flex>2014</div>
-                    <div flex>2015</div>
+            <div flex layout="row" layout-sm="column" layout-align="space-between end" class="md-whiteframe-z1">
+                <div flex>job</div>
+                <div flex ng-repeat="job in cv.jobs">
+                    {{job.title}} ({{job.start_date.month}}/{{job.start_date.year}} - {{job.end_date.month}}/{{job.end_date.year}})
                 </div>
             </div>
-            <div flex style="background-color:yellow">
-                Edu
+            <div flex="10" layout="row">
+                <div flex layout="row" ng-repeat="m in dateRange">
+                    <span ng-if="m.month == 1">{{m.year}}</span>
+                    <span ng-if="m.month != 1">.</span>
+                </div>
             </div>
+            <div flex class="md-whiteframe-z1-top">Education</div>
         </div>
 
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
         <script src="../../assets/js/custom.js"></script>
         <script src="../../assets/js/google_analytics.js"></script>
-        <script src="../../bower_components/angular-touch/angular-touch.js"></script>
+        <!--<script src="../../bower_components/angular-touch/angular-touch.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>

@@ -1,0 +1,41 @@
+{
+    "name": "Alexadra Popescu",
+    "jobs": [{
+        "title": "Software developer",
+        "start_date": {"year": "2005", "month": "05", "day": "01"},
+        "end_date": {"year": "2006", "month": "06", "day": "01"},
+        "domain": "Stock exchange",
+        "technologies": [{
+            "area": "database",
+            "list": ["oracle", "plsql"]
+        }, {
+            "area": "web",
+            "list": ["html", "js", "j2ee"]
+        }]
+    }, {
+        "title": "Customer Support Engineer CRM",
+        "start_date": {"year": "2006", "month": "06", "day": "01"},
+        "end_date": {"year": "2006", "month": "12", "day": "01"},
+        "domain": "Telecom",
+        "technologies": [{
+            "area": "database",
+            "list": ["oracle", "plsql"]
+        }, {
+            "area": "other",
+            "list": ["vb_script"]
+        }]
+    }, {
+        "title": "Team Leader, Customer Support Engineer team",
+        "start_date": {"year": "2006", "month": "12", "day": "01"},
+        "end_date": {"year": "2007", "month": "10", "day": "01"},
+        "domain": "Telecom",
+        "technologies": [{
+            "area": "database",
+            "list": ["oracle", "plsql"]
+        }, {
+            "area": "other",
+            "list": ["vb_script"]
+        }]
+    }],
+    "education": []
+}

@@ -19,3 +19,9 @@ body {
   background-color: #ffc9a3;
   padding: 10px;
 }
+.md-whiteframe-z2-top {
+  box-shadow: 0 -8px 17px rgba(0,0,0,0.2);
+}
+.md-whiteframe-z1-top {
+  box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.26);
+}

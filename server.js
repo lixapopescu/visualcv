@@ -33,6 +33,9 @@ app.use(morgan('dev'));
 app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(require('stylus').middleware(__dirname + '/public')); //In your html files, just include the .styl files, but use the css extension. Express will compile it from styl to css on the fly
 app.use(express.static(__dirname + '/public'));
+app.get('/cv.json', function(req, res) {
+    res.sendfile(__dirname + '/public/app/cv.json');
+})
 app.use(function(req, res) {
     res.sendfile(__dirname + '/public/app/views/index.html');
 });
