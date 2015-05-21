@@ -1,6 +1,21 @@
 body {
   color: #5a5a5a;
 }
+.header {
+  font-size: 1.5em;
+}
+.header-column {
+  width: 1.5vw;
+}
+.jobs-box {
+  background-color: #e3e3e3;
+}
+.edu-box {
+  background-color: #e3e3e3;
+}
+.job-title {
+  font-size: 0.6em;
+}
 .pro-lang {
   font-size: 2.5em;
 }
@@ -24,4 +39,31 @@ body {
 }
 .md-whiteframe-z1-top {
   box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.26);
+}
+.box1 {
+  background-color: #808080;
+}
+.box2 {
+  background-color: #bd9956;
+}
+.box3 {
+  background-color: #c8b2e1;
+}
+.box4 {
+  background-color: #b2e1d4;
+}
+.box5 {
+  background-color: #e1d4b2;
+}
+.box6 {
+  background-color: #e1d4b2;
+}
+.box7 {
+  background-color: #ce8282;
+}
+.box8 {
+  background-color: #8286ce;
+}
+.box9 {
+  background-color: #a4a4ad;
 }
